@@ -73,7 +73,7 @@ anzulegen oder zu löschen. Alle anderen User dürfen gar nichts.
 Das funktionert auf zwei Arten: mit Buchstaben-Codes und
 oder mit 3 Oktalzahlen.
 
-`go+r` heisst: der Gruppe und dem Owner gibt das recht zum Schreiben (read).
+`go+r` heisst: der Gruppe (group) und den Anderen (others) wird das Recht zum Lesen (read) zugewiesen.
 
 <shell>
 $ ls -la webspace_mmt/index.html
